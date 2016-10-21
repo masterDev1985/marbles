@@ -197,7 +197,7 @@ var options = 	{
 						users: users,																		//dump the whole thing, sdk will parse for a good one
 						options: {
 									quiet: true, 															//detailed debug messages on/off true/false
-									tls: true, 																//should app to peer communication use tls?
+									tls: false, 																//should app to peer communication use tls?
 									maxRetry: 1																//how many times should we retry register before giving up
 								}
 					},
